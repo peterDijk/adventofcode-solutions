@@ -16,7 +16,7 @@ const processInput = (err, contents) => {
   console.log(`solution: ${solution}`);
 
   let res = solution;
-  let read = 1013;
+  let read = freqArrInts.length - 1;
   let loop = 1;
 
   while (true) {
